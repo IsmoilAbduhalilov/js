@@ -11,7 +11,7 @@ let TextData = document.getElementById('textData')
         // console.log("InputData.value");
         // InputData.value = ""
         const dataText = InputData.value
-            TextData.innerHTML = `
+            TextData.innerHTML += `
             <h1 class="text-[white] pl-[50px] pt-[20px] text-[25px]">${dataText}</h1>
             `
             InputData.value =  ""
